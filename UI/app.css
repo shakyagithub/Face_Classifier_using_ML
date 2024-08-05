@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card-wrapper {
+  margin-bottom: 20px;
+}
+
+.custom-circle-image {
+  width: 150px;
+  height: 150px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.dz-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dz-message img {
+  margin-bottom: 10px;
+}
+
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #007bff;
+  padding: 20px;
+  text-align: center;
+}
+
+.dropzone .dz-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  border: none; /* Remove the border */
+  padding: 0; /* Remove any padding */
+}
+
+.dropzone .dz-preview .dz-image {
+  width: 80px;
+  height: 80px;
+}
+
+.dropzone .dz-preview .dz-details {
+  display: none; /* Hide the file size and other details */
+}
+
+.dropzone .dz-preview .dz-remove {
+  color: red;
+  cursor: pointer;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.error {
+  display: none;
+  color: red;
+  font-weight: bold;
+}
+
+#classTable {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+#classTable th, #classTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#classTable th {
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: 1px solid #ddd; /* Keep the border */
+  padding: 8px; /* Padding for spacing */
+  text-align: center; /* Center-align text */
+}
+
+
+#submitBtn {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+#submitBtn:focus,
+#submitBtn:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+  outline: none;
+}
+
+#submitBtn {
+  background-color: #007bff; /* Primary blue color */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for better spacing */
+  font-size: 16px; /* Slightly larger text */
+  font-weight: bold; /* Bold text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  display: block; /* Make the button a block element */
+  margin: 20px auto 0 auto; /* Center the button with margin auto */
+  text-align: center; /* Ensure the text inside is centered */
+}
+
+#submitBtn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+#submitBtn:active {
+  background-color: #004085; /* Even darker blue when active */
+}
+
+#submitBtn:focus {
+  outline: none; /* Remove focus outline */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add a shadow for focus */
+}
+
+#error {
+  display: none; /* Hide by default */
+  color: red;
+  font-weight: bold;
+  text-align: center; /* Center the text */
+  margin: 0 auto; /* Center the element horizontally */
+  width: 100%; /* Ensure the element takes the full width */
+}
+
+.row.justify-content-center {
+  justify-content: center !important; /* Ensure the row is centered */
+}
+
+.col-sm-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
